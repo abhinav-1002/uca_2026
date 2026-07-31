@@ -37,7 +37,7 @@ int main() {
 
         else if (c == '/') {
             next = getchar();
-\
+
             if (next == '/') {
                 while ((c = getchar()) != EOF && c != '\n');
                 if (c == '\n')
